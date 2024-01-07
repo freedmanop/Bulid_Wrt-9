@@ -15,7 +15,7 @@ echo
 clear
 
 rm -Rf openwrt/common openwrt/files openwrt/devices
-svn export https://github.com/kenzok78/Bulid_Wrt/trunk/devices openwrt/devices
+svn export https://github.com/freedmanop/Bulid_Wrt-9/trunk/devices openwrt/devices
 cd openwrt
 
 git checkout .
